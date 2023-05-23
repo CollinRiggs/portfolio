@@ -1,13 +1,358 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
 }
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    /* --primary-light: #c3ceda;
+    --primary-dark: #738fa7; */
+    --primary-light: #eed;
+    --primary-dark: #eed;
+    --secondary-light: #0c4160;
+    --secondary-dark: #050e24;
+}
+
+* {
+    /* border: red solid 1px; */
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--primary-dark);
+}
+
+body {
+    background-color: var(--secondary-light);
+    background-image: url('http://cdn.devbread.net/static/portfolio/background.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    max-width: 960px;
+    margin: auto;
+    text-align: center;
+    background-color: #0c4160f0;
+    min-height: 59vh;
+}
+
+.section-header {
+    font-size: 3rem;
+    color: var(--primary-light);
+    border-bottom: 3px solid var(--primary-light);
+}
+
+.error-page {
+    padding: 10rem 0;
+}
+
+
+
+/* Home Section */
+
+.home {
+    margin: 0;
+    padding: 15px;
+}
+
+.home > * {
+    margin-top: 15px;
+}
+
+.home > .name {
+    font-size: 6rem;
+    font-weight: 600;
+    color: var(--primary-light)
+}
+
+.home > .title {
+    margin-top: 0px;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.profile-pic > img {
+    max-width: 18rem;
+    border-radius: 50%;
+}
+
+.social-link-ico {
+    padding-left: .5rem;
+    padding-right: .5rem;
+    text-decoration: none;
+}
+
+.social-link-ico:hover {
+    transform: scale(1.06);
+}
+
+/* Home Section End */
+
+
+
+/* Projects Section Start */
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.project {
+    /* background-color: red; */
+    /* border: 2px solid var(--primary-light); */
+    background-color: #eed;
+    border: 2px solid var(--secondary-dark);
+    width: 220px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: var(--secondary-dark);
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project:hover {
+    transform: scale(1.02);
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.6);
+    transition: box-shadow .1s linear;
+}
+
+.project-icon {
+    /* width: 200px; */
+    height: 150px;
+    width: 200px;
+}
+
+
+.project-title {
+    color: var(--secondary-dark);
+    padding: 5px 0;
+    font-weight: 600;
+}
+
+.project-tag {
+    color: var(--secondary-dark);
+    margin-bottom: 7px;
+    max-width: 200px;
+    height: 65px;
+}
+
+/* Projects Section End */
+
+
+
+/* Skills Section */
+
+.skills {
+    padding-top: 30px;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 20px;
+    margin-top: 10px;
+}
+
+.skill {
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 25px 10px;
+
+    background-color: #eed;
+    box-shadow: 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.skill:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px rgba(0, 0, 0, 0.6);
+    transition: box-shadow .1s linear;
+}
+
+.skill-java {
+    background-color: #3483a3;
+}
+
+.skill-ubuntu {
+    background-color: #f47421;
+}
+
+.skill > a > img {
+    max-width: 130px;
+    margin: 15px;
+}
+
+/* Skills Section End */
+
+
+
+/* About Section Start */
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 50px 10px;
+}
+
+.about-content > * {
+    margin-top: 20px;
+}
+
+.headshot {
+    width: 15rem;
+    border-radius: 50%;
+}
+
+
+/* About Section End */
+
+
+
+/* Resume Section Start */
+
+.resume-content {
+    padding: 40px 40px;
+}
+
+.resume-button {
+    padding: 20px;
+    border: 2px solid var(--primary-light);
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #0f5076;
+}
+
+.pdf-icon {
+    padding-top: 10px;
+    display: inline;
+}
+
+/* Resume Section End */
+
+
+
+/* Header Start */
+
+.header {
+    background-color: var(--secondary-dark);
+    min-height: 3rem;
+    position: sticky;
+    top: 0;
+    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    z-index: 5;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.header-link {
+    margin: 0 40px;
+    text-decoration: none;
+}
+
+.header-link:hover {
+    border-bottom: 2px solid var(--primary-light);
+    user-select: none;
+}
+
+/* Header End */
+
+
+
+/* Footer Start */
+
+.footer {
+    background-color: var(--secondary-dark);
+    height: 2rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+    z-index: 5;
+}
+
+/* Footer End */
+
+
+
+/* Project Page Start */
+
+.project-back-arrow {
+    position: absolute;
+    float: left;
+    margin: 20px 0 0 20px;
+}
+
+.project-content {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    min-height: 86vh;
+}
+
+.project-content > * {
+    margin-bottom: 20px;
+}
+
+.project-img {
+    max-width: 800px;
+    border: 2px solid var(--secondary-dark);
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.project-text {
+    padding: 0 50px;
+    text-align: left;
+}
+
+.link-button {
+    padding: 20px;
+    border: 2px solid var(--primary-light);
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #0f5076;
+    margin-bottom: 20px;
+}
+
+.link-icon {
+    padding-top: 10px;
+    display: inline;
+}
+
+/* Project Page End */
