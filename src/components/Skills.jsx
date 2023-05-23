@@ -12,7 +12,7 @@ const Skills = () => {
                         rel="noopener noreferrer"
                     >
                         <img
-                            src="http://cdn.devbread.net/static/portfolio/skills/java.png"
+                            src="https://cdn.devbread.net/static/portfolio/skills/java.png"
                             alt="Java"
                         ></img>
                     </a>
@@ -24,7 +24,7 @@ const Skills = () => {
                         rel="noopener noreferrer"
                     >
                         <img
-                            src="http://cdn.devbread.net/static/portfolio/skills/c++.png"
+                            src="https://cdn.devbread.net/static/portfolio/skills/c++.png"
                             alt="c++"
                         ></img>
                     </a>
@@ -36,7 +36,7 @@ const Skills = () => {
                         rel="noopener noreferrer"
                     >
                         <img
-                            src="http://cdn.devbread.net/static/portfolio/skills/html.png"
+                            src="https://cdn.devbread.net/static/portfolio/skills/html.png"
                             alt="HTML"
                         ></img>
                     </a>
@@ -48,7 +48,7 @@ const Skills = () => {
                         rel="noopener noreferrer"
                     >
                         <img
-                            src="http://cdn.devbread.net/static/portfolio/skills/javascript.png"
+                            src="https://cdn.devbread.net/static/portfolio/skills/javascript.png"
                             alt="JavaScript"
                         ></img>
                     </a>
@@ -60,7 +60,7 @@ const Skills = () => {
                         rel="noopener noreferrer"
                     >
                         <img
-                            src="http://cdn.devbread.net/static/portfolio/skills/python.png"
+                            src="https://cdn.devbread.net/static/portfolio/skills/python.png"
                             alt="Python"
                         ></img>
                     </a>
@@ -72,7 +72,7 @@ const Skills = () => {
                         rel="noopener noreferrer"
                     >
                         <img
-                            src="http://cdn.devbread.net/static/portfolio/skills/react.png"
+                            src="https://cdn.devbread.net/static/portfolio/skills/react.png"
                             alt="React"
                         ></img>
                     </a>
@@ -84,7 +84,7 @@ const Skills = () => {
                         rel="noopener noreferrer"
                     >
                         <img
-                            src="http://cdn.devbread.net/static/portfolio/skills/ue.png"
+                            src="https://cdn.devbread.net/static/portfolio/skills/ue.png"
                             alt="Unreal Engine"
                         ></img>
                     </a>
@@ -96,7 +96,7 @@ const Skills = () => {
                         rel="noopener noreferrer"
                     >
                         <img
-                            src="http://cdn.devbread.net/static/portfolio/skills/lua.png"
+                            src="https://cdn.devbread.net/static/portfolio/skills/lua.png"
                             alt="Lua"
                         ></img>
                     </a>
@@ -108,7 +108,7 @@ const Skills = () => {
                         rel="noopener noreferrer"
                     >
                         <img
-                            src="http://cdn.devbread.net/static/portfolio/skills/firebase.png"
+                            src="https://cdn.devbread.net/static/portfolio/skills/firebase.png"
                             alt="Firebase"
                         ></img>
                     </a>
@@ -120,7 +120,7 @@ const Skills = () => {
                         rel="noopener noreferrer"
                     >
                         <img
-                            src="http://cdn.devbread.net/static/portfolio/skills/ubuntu.png"
+                            src="https://cdn.devbread.net/static/portfolio/skills/ubuntu.png"
                             alt="Ubuntu"
                         ></img>
                     </a>

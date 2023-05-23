@@ -13,7 +13,7 @@ const Home = () => {
             <div className="title">Full-Stack Developer</div>
             <div className="profile-pic">
                 <img
-                    src="http://cdn.devbread.net/static/profile_picture.jpg"
+                    src="https://cdn.devbread.net/static/profile_picture.jpg"
                     alt="Headshot"
                 ></img>
             </div>

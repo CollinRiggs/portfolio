@@ -41,7 +41,7 @@ html {
 
 body {
     background-color: var(--secondary-light);
-    background-image: url('http://cdn.devbread.net/static/portfolio/background.jpg');
+    background-image: url('https://cdn.devbread.net/static/portfolio/background.jpg');
     background-size: cover;
     display: flex;
     flex-direction: column;
