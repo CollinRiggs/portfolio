@@ -36,7 +36,7 @@ const About = () => {
                     services for automating document creation and data
                     validation for law firms. I've never quite known how to
                     solve the problem before starting the job, but after eight
-                    years of self-taught programming experience I am always
+                    years of self-taught programming experience I always
                     figure it out somehow.
                 </p>
                 <p className="about-text">
